@@ -1,4 +1,3 @@
-import type { CommunityType } from '@/App'
 import MyImage from '../../public/Logomarca-da-Defesa-Civil-Amazonas-01.png'
 import yImage from '../../public/icone-localização-02.png'
 
