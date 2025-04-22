@@ -55,8 +55,6 @@ const MapComponent = () => {
   const [filterCommunity, setFilterCommunity] = useState<string>('')
   const [mapCenter, setMapCenter] = useState(defaultCenter)
   const [mapZoom, setMapZoom] = useState(defaultZoom)
-  const [selectedCommunity, setSelectedCommunity] =
-    useState<CommunityType | null>(null)
   const [hoveredCommunity, setHoveredCommunity] =
     useState<CommunityType | null>(null)
   const [totalCommunities, setTotalCommunities] = useState(0)
