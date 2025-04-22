@@ -76,7 +76,7 @@ const MapComponent = () => {
 
   const fetchCommunities = async () => {
     try {
-      const response = await api.get('/public/community/list')
+      const response = await api.get('/public/community')
 
       console.log(response)
       setData(response.data)
@@ -89,7 +89,7 @@ const MapComponent = () => {
   const fetchCities = async () => {
     try {
       const response = await api.get('/cities')
-      const cityData = response.data.city.map((city: CityType) => ({
+      const cityData = response.data.map((city: CityType) => ({
         id: city.id,
         name: city.name,
         riverChannelId: city.riverChannelId,
