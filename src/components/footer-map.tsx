@@ -10,7 +10,7 @@ interface FooterMapProps {
 
 export function FooterMap({ totalCommunities, totalPopulation, totalResidence }: FooterMapProps) {
   return (
-    <div className='fixed left-1/2 transform -translate-x-1/2 w-[1300px] max-h-screen items-center justify-between bg-blue-950 rounded-xl mx-auto p-20 bottom-14'>
+    <div className='fixed left-1/2 transform -translate-x-1/2 w-full max-w-[1300px] items-center justify-between bg-blue-950 rounded-xl mx-auto p-20 sm:bottom-10 md:bottom-2 lg:bottom-4'>
 
   <img
     src={MyImage}

@@ -5,7 +5,7 @@ import { FooterMap } from './components/footer-map'
 import { FilterSelect } from './components/select-filter'
 
 const mapContainerStyle = {
-  height: '60vh',
+  height: '65vh',
   width: '100%',
   maxWidth: '100vw'
 }
